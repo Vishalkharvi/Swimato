@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.itemBorder {
+  border-radius: 20px;
+  /* border-bottom-left-radius:20px; */
+  box-shadow: 0px 2px 5px 2px yellow;
+
+}
+
+
+
+
+.buttonClass {
+  width:100px;
+  height:auto;
+  border-radius: 10px;
+  border-color: whitesmoke;
+  transition: 0.1s;
+
+  
+}
+
+.buttonClass:hover {
+  width:102px;
+  background-color: white;
+  box-shadow: 0px 2px 4px 1px #fff;
+
+}
+
+.buttonDesign {
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  
+}
+
+
+
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.priceTag {
+  color:whitesmoke;
+  font-size: 20px;
+}
+
+.img-fluid{
+  width: 600px;
+  height: 400px;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.buttondiv {
+  background-color:black;
+  border:greenyellow;
+  border-radius: 8px;
+
+}
+
+.styling {
+  background-color: black;
+}
+
+.stylingAll {
+  background-color:black;
+}
+
+.imgCss {
+  display: flex;
+  overflow-y:hidden ;
+  width:100%; 
+  height:150px !important;
+}
