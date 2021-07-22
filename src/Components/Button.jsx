@@ -6,7 +6,7 @@ const Button = (props) => {
 <>
     {Ucategories.map((val,index) => {
         return (
-        <button key={index} className='bg-warning buttonDesign' onClick={() => {props.filterItem(val)}}> {val}</button>
+        <button key={index} className='bg-warning buttonDesign mx-1' onClick={() => {props.filterItem(val)}}> {val}</button>
         );
     })
 
