@@ -4,10 +4,10 @@ const Card = (props) => {
 
     <>
 
-    <div className='col-12-mx-auto col-md-4 col-lg-4 mx-lg-0 itemBorder '>
+    <div className='col-12 mx-auto col-md-4 col-lg-3  itemBorder px-0 py-0'>
         <div className='row rowToPad'>
-            <div className='col-12 col-md-12 col-lg-5 mt-1 my-lg-5 imgCss '> 
-                <img className='bg-warning img-fluid ' src={props.image} alt={props.name} />
+            <div className='col-12 col-md-12 col-lg-5 mt-1 my-lg-5 imgCss  pb-0 pt-0 '> 
+                <img className='bg-warning img-fluid pt-0' src={props.image} alt={props.name} />
             </div>
 
 
