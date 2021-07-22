@@ -36,7 +36,8 @@ const Gallery= () => {
 
     return ( 
         <>
-          <div className='bodyOut'>
+    <div className='bodyOut'>
+
         <div className='container styling'>
             <h1 className='my-4 text-center header'>Order Your foods</h1>
 
@@ -68,7 +69,7 @@ const Gallery= () => {
             
 
         </div>
-      </div>
+        </div>
 
 
         </>
